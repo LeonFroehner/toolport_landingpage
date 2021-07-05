@@ -1,0 +1,65 @@
+body{
+    color: white;
+}
+
+.back{
+    background: white;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+.price{
+    font-size: 5vw;
+    color: #0D3D6D;
+}
+
+.product_name{
+    color: #0D3D6D;
+}
+
+.video_build{
+    height: 16.5rem;
+}
+
+.wrapper_form{
+    background: #0D3D6D;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.wrapper_advantages{
+    background: #0D3D6D;
+    padding: 1rem;
+}
+
+.list_elements{
+    background-color: #0D3D6D;
+    border-color: white;
+    font-weight: bold;
+}
+
+.wrapper_checkboxes{
+    padding-left: 0.9375rem;
+}
+
+.btn_self{
+    background: #097A77;
+    font-weight: bold;
+    color: white;
+}
+
+.btn_self:hover{
+    color: white;
+    cursor: not-allowed;
+}
+
+.confirm_notification{
+    background: #097A77;
+    font-weight: bold;
+}
